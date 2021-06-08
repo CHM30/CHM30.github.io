@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
-	background-color: #DEE6FA;
+	background-color: #5177D6;
   	color: #FFFFFF;
   	font-family: 'Source Sans Pro', sans-serif;
   	font-weight: 400;
@@ -24,7 +24,7 @@ body::after {
 }
 
 textarea, input, select, button {
-	background-color: rgba(81, 119, 214, 1);
+	background-color: #DEE6FA;
 	border: none;
 	color:#ffffff;
 	font-family: 'Source Sans Pro', sans-serif;
