@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
-  background-color: #D8D8FF;
+	background-color: #5177D6;
   color: #FFFFFF;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -9,24 +9,24 @@ body {
 }
 
 body::after {
-  content: "";
-  background: url('//storage.proboards.com/7200422/images/Vaf0cAHIEgfdOrIAKGAY.jpeg');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0.25;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1;
+	content: "";
+  	background: url('//storage.proboards.com/7200422/images/Vaf0cAHIEgfdOrIAKGAY.jpeg');
+  	background-position: top center;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	opacity: 0.25;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: fixed;
+  	z-index: -1;
 }
 
 textarea, input, select, button {
-  background-color: rgba(81, 119, 214, 1);
-  border: none;
-  color:#ffffff;
+	background-color: rgba(81, 119, 214, 1);
+	border: none;
+	color:#ffffff;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding:10px;
 	margin: 10px;
@@ -43,20 +43,20 @@ button {
 }
 
 input {
-	width:30%;
+	width: 30%;
 }
 
 #generate-button, #reset {
-	text-transform:uppercase;
-	font-size:1.5em;
-	letter-spacing:1.2pt;
-	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	letter-spacing: 1.2pt;
+	font-weight: bold;
 }
 
 fieldset {
 	border: 2px solid #9381FF;
 	padding: 30px;
-	margin:25px 0;
+	margin: 25px 0;
 }
 legend {
 	padding: 0 10px;
@@ -65,32 +65,32 @@ legend {
 }
 
 hr {
-	border-width:0;
-	background:#9381FF;
-	color:#9381FF;
-	height:2px;
+	border-width: 0;
+	background: #9381FF;
+	color: #9381FF;
+	height: 2px;
 }
 
 #output {
-	font-family:'Source Code Pro';
-	font-size:10pt;
-	background-color:rgba(56, 185, 255, 0.6);
-	padding:25px;
+	font-family: 'Source Code Pro';
+	font-size: 10pt;
+	background-color: rgba(56, 185, 255, 0.6);
+	padding: 25px;
 }
 
 #output h2 {
-	font-family:'Source Sans Pro';
-	background-color:rgba(1, 154, 237, 0.6);
-	padding:5px 25px;
-	text-align:center;
+	font-family: 'Source Sans Pro';
+	background-color: rgba(1, 154, 237, 0.6);
+	padding: 5px 25px;
+	text-align: center;
 }
 
 ::selection {
-	background-color:#9381FF;
+	background-color: #FFF1B7;
 }
 
 h1 {
-	text-align:center;
-	text-transform:uppercase;
-	letter-spacing:4pt;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 4pt;
 }
