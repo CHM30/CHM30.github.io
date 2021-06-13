@@ -78,7 +78,7 @@ ol > ol > li:before, ul > ol > li:before {
 }
 hr {
 	border: 1.2px solid #000000;
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 .links {
