@@ -26,9 +26,9 @@ body::after {
 textarea, input, select, button {
 	background-color: #DEE6FA;
 	border: none;
-	color:#ffffff;
+	color: #5177D6;
 	font-family: 'Source Sans Pro', sans-serif;
-	padding:10px;
+	padding: 10px;
 	margin: 10px;
 }
 
