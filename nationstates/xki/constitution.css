@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
 body {
-	font-family: "Old Standard TT", Century Schoolbook, Times New Roman, serif;
+	font-family: 'Hind';
 	margin:25px 10%;
 	text-align:justify;
 	font-size:11pt;
