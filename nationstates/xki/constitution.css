@@ -78,12 +78,6 @@ ol > ol > li:before, ul > ol > li:before {
 	background:#eee;
 	border-radius: 10px;
 }
-hr {
-	border: 1.2px solid #000000;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
 .links {
 	text-align:center;
 	font-variant:small-caps;
