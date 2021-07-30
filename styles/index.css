@@ -4,7 +4,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 /* ======================================================
  * Variables
@@ -19,7 +18,7 @@
 @default_font_style: @empty;
 @default_font_weight: @empty;
 @default_font_size: 1.2rem;
-@default_font_family: 'Open Sans', Verdana, Arial, sans-serif;
+@default_font_family: "DM Sans", "PT Sans", sans-serif;
 @default_decoration: @empty;
 @default_case: @empty;
 
