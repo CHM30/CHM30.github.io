@@ -28,7 +28,7 @@ p {
   
 }
 
-p.container {
+p.center {
   text-align: center;
   margin: 20px 10px 10px 10px;
 }
@@ -74,7 +74,7 @@ h4 {
 }
 
 
-h1.container {
+h1.center {
   
   /* Text */
   text-align: center;
@@ -82,7 +82,7 @@ h1.container {
   
 }
 
-h4.container {
+h4.center {
   
   /* Text */
   text-align: center;
