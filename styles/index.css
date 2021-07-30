@@ -19,8 +19,9 @@
 @default_font_weight: @empty;
 @default_font_size: 1.2rem;
 @default_font_family: "DM Sans", "PT Sans", sans-serif;
-@default_decoration: @empty;
-@default_case: @empty;
+@default_font_decoration: @empty;
+@default_font_case: @empty;
+@default_font_line_height: 1.4;
 
 @bold_weight: 700;
 @italic_style: italic;
@@ -48,9 +49,9 @@ body {
   font-weight: @default_font_weight;
   font-size: @default_font_size;
   font-family: @default_font_family;
-  line-height: 1.4;
-  text-decoration: @default_decoration;
-  text-transform: @default_case;
+  line-height: @default_font_line_height;
+  text-decoration: @default_font_decoration;
+  text-transform: @default_font_case;
   color: @default_color;
 }
 
