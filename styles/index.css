@@ -4,13 +4,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 /* ======================================================
  * Styles
  * ====================================================== */
   
 html, body {
-  font-family: "DM Sans", "PT Sans";
-  color: #EFF3FD;
   background-color: #182441;
+  font-family: "DM Sans", "PT Sans", sans-serif;
+  color: #EFF3FD;
+}
+
+/* Typography
+ * ====================================================== */
+
+h1 {
+  font-family: "Roboto Mono";
+  font-size: 125%;
+  color: #EFF3FD;
 }
