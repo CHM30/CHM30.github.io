@@ -11,6 +11,9 @@
 
 @empty: ~"";
 
+@default_font_color: #000;
+@link_color: #6FA3D8;
+
 @body_background_attachment: @empty;
 @body_background_repeat: @empty;
 @body_background_position: @empty;
@@ -52,7 +55,7 @@ body {
   line-height: @default_font_line_height;
   text-decoration: @default_font_decoration;
   text-transform: @default_font_case;
-  color: @default_color;
+  color: @default_font_color;
 }
 
 /* ======================================================
