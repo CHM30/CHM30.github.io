@@ -46,7 +46,9 @@ p.center {
   /* External */
   border-radius: 10px;
   width: 65%;
-  margin: 20px 0px 20px 0px auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   
 }
 
