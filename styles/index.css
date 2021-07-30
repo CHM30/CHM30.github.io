@@ -28,6 +28,11 @@ p {
   
 }
 
+p.center {
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
 .container {
   
   /* Text */
@@ -61,6 +66,7 @@ h4 {
   /* Text */
   font-family: "Roboto Mono";
   text-decoration: underline;
+  text-decoration-thickness: 50%;
   text-underline-offset: 50%;
   margin-top: 10px;
   margin-left: 25px;
