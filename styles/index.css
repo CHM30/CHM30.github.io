@@ -52,12 +52,11 @@ h1 {
   
   /* Text */
   font-family: "Roboto Mono";
-  font-size: 200%;
   margin-left: 15px;
   
 }
 
-h2 {
+h4 {
   
   /* Text */
   font-family: "Roboto Mono";
@@ -75,7 +74,7 @@ h1.center {
   
 }
 
-h2.center {
+h4.center {
   
   /* Text */
   text-align: center;
