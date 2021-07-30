@@ -52,6 +52,7 @@ h1 {
   
   /* Text */
   font-family: "Roboto Mono";
+  font-size: 125%;
   margin-left: 15px;
   
 }
@@ -67,11 +68,17 @@ h2 {
 
 
 h1.center {
+  
+  /* Text */
   text-align: center;
   margin: 0 0 0 0;
+  
 }
 
 h2.center {
+  
+  /* Text */
   text-align: center;
   margin: 0 0 0 0;
+  
 }
