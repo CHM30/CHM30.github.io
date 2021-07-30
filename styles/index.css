@@ -21,18 +21,6 @@ html, body {
   
 }
 
-p {
-  
-  /* Text */
-  margin-left: 35px;
-  
-}
-
-p.center {
-  text-align: center;
-  margin: 20px 10px 10px 10px;
-}
-
 .container {
   
   /* Text */
@@ -47,8 +35,6 @@ p.center {
   border-radius: 10px;
   width: 65%;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
   
 }
 
@@ -90,4 +76,16 @@ h4.center {
   text-align: center;
   margin: 10px 0px 0px 0px;
   
+}
+
+p {
+  
+  /* Text */
+  margin-left: 35px;
+  
+}
+
+p.center {
+  text-align: center;
+  margin: 20px 10px 10px 10px;
 }
