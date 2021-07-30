@@ -61,6 +61,7 @@ h4 {
   /* Text */
   font-family: "Roboto Mono";
   text-decoration: underline;
+  text-underline-offset: 50%;
   margin-top: 10px;
   margin-left: 25px;
   
