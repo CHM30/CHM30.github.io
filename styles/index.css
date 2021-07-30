@@ -35,17 +35,6 @@
 @link_hover_decoration: @link_decoration;
 @link_hover_color: lighten(@link_color, 20%);
 
-@container_links_hover_color: @link_hover_color;
-
-@h2_font: 1.3rem @default_font_family;
-@h2_decoration: @empty;
-@h2_case: @empty;
-@h2_color: @empty;
-@h3_font: 1.8rem @default_font_family;
-@h3_decoration: @empty;
-@h3_case: @empty;
-@h3_color: @empty;
-
 /* ======================================================
  * Base Styles
  * ====================================================== */
