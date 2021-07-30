@@ -5,12 +5,11 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
-
 /* ======================================================
- * Base Styles
+ * Styles
  * ====================================================== */
   
-body {
+html, body {
   background-color: #121B31;
   background-image: @body_background_image;
   background-attachment: @body_background_attachment;
@@ -25,8 +24,3 @@ body {
   text-transform: @default_font_case;
   color: #FFFFFF;
 }
-
-/* ======================================================
- * Typography
- * ====================================================== */
-  
