@@ -56,7 +56,7 @@ h2 {
   /* Text */
   font-family: "Roboto Mono";
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 10px;
   margin-left: 25px;
   
 }
