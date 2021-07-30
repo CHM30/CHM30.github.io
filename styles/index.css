@@ -10,17 +10,7 @@
  * ====================================================== */
   
 html, body {
-  background-color: #121B31;
-  background-image: @body_background_image;
-  background-attachment: @body_background_attachment;
-  background-repeat: @body_background_repeat;
-  background-position: @body_background_position;
-  font-style: @default_font_style;
-  font-weight: @default_font_weight;
-  font-size: @default_font_size;
-  font-family: @default_font_family;
-  line-height: @default_font_line_height;
-  text-decoration: @default_font_decoration;
-  text-transform: @default_font_case;
-  color: #FFFFFF;
+  font-family: "DM Sans", "PT Sans";
+  color: #EFF3FD;
+  background-color: #05080F;
 }
