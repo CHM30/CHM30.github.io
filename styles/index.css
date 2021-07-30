@@ -21,6 +21,12 @@ html, body {
 
 h1 {
   font-family: "Roboto Mono";
+  font-size: 150%;
+  color: #EFF3FD;
+}
+
+h2 {
+  font-family: "Roboto Mono";
   font-size: 125%;
   color: #EFF3FD;
 }
