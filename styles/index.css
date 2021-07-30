@@ -10,4 +10,63 @@
  * Variables
  * ====================================================== */
 
-@default_font_family: "DM Sans", "PT Sans"
+@empty: ~"";
+
+@body_background_attachment: @empty;
+@body_background_repeat: @empty;
+@body_background_position: @empty;
+
+@default_font_style: @empty;
+@default_font_weight: @empty;
+@default_font_size: 1.2rem;
+@default_font_family: 'Open Sans', Verdana, Arial, sans-serif;
+@default_decoration: @empty;
+@default_case: @empty;
+
+@bold_weight: 700;
+@italic_style: italic;
+
+@link_font: 100% @default_font_family;
+@link_decoration: none;
+@link_active_decoration: @link_decoration;
+@link_active_color: @link_color;
+@link_visited_decoration: @link_decoration;
+@link_visited_color: @link_color;
+@link_hover_decoration: @link_decoration;
+@link_hover_color: lighten(@link_color, 20%);
+
+@container_links_hover_color: @link_hover_color;
+
+@h2_font: 1.3rem @default_font_family;
+@h2_decoration: @empty;
+@h2_case: @empty;
+@h2_color: @empty;
+@h3_font: 1.8rem @default_font_family;
+@h3_decoration: @empty;
+@h3_case: @empty;
+@h3_color: @empty;
+
+/* ======================================================
+ * Base Styles
+ * ====================================================== */
+  
+body {
+  background-color: @body_background_color;
+  background-image: @body_background_image;
+  background-attachment: @body_background_attachment;
+  background-repeat: @body_background_repeat;
+  background-position: @body_background_position;
+  font-style: @default_font_style;
+  font-weight: @default_font_weight;
+  font-size: @default_font_size;
+  font-family: @default_font_family;
+  line-height: 1.4;
+  text-decoration: @default_decoration;
+  text-transform: @default_case;
+  color: @default_color;
+}
+
+/* ======================================================
+ * Typography
+ * ====================================================== */
+  
