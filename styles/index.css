@@ -61,7 +61,7 @@ h4 {
   /* Text */
   font-family: "Roboto Mono";
   text-decoration: underline;
-  margin-left: 10px;
+  margin-top: 10px;
   margin-left: 25px;
   
 }
@@ -71,7 +71,7 @@ h1.center {
   
   /* Text */
   text-align: center;
-  margin: 0 0 0 0;
+  margin: 10px 0px 0px 0px;
   
 }
 
