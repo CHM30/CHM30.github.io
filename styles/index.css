@@ -16,6 +16,14 @@ html, body {
   color: #EFF3FD;
 }
 
+p {
+  margin-left: 35px;
+}
+
+div {
+  margin-left: 10px;
+}
+
 /* Typography
  * ====================================================== */
 
@@ -31,8 +39,4 @@ h2 {
   text-decoration: underline;
   text-underline-offset: 3px;
   margin-left: 25px;
-}
-
-p {
-  margin-left: 50px;
 }
