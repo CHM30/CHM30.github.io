@@ -64,3 +64,14 @@ h2 {
   margin-left: 25px;
   
 }
+
+
+h1.center {
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+h2.center {
+  text-align: center;
+  margin: 0 0 0 0;
+}
