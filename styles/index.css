@@ -38,6 +38,10 @@ p {
   background-color: rgba(239, 243, 253, 0.5);
   background-image: url(/images/gradient.jpg);
   
+  /* External */
+  border-radius: 10px;
+  width: 65%;
+  
 }
 
 /* Typography
@@ -56,7 +60,6 @@ h2 {
   /* Text */
   font-family: "Roboto Mono";
   text-decoration: underline;
-  text-underline-offset: 10px;
   margin-left: 25px;
   
 }
