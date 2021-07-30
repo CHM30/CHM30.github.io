@@ -5,45 +5,13 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 
-/* ======================================================
- * Variables
- * ====================================================== */
-
-@empty: ~"";
-
-@default_font_color: #ECB1C6;
-@link_color: #6FA3D8;
-
-@body_background_attachment: @empty;
-@body_background_repeat: @empty;
-@body_background_position: @empty;
-
-@default_font_style: @empty;
-@default_font_weight: @empty;
-@default_font_size: 1.2rem;
-@default_font_family: "DM Sans", "PT Sans", sans-serif;
-@default_font_decoration: @empty;
-@default_font_case: @empty;
-@default_font_line_height: 1.4;
-
-@bold_weight: 700;
-@italic_style: italic;
-
-@link_font: 100% @default_font_family;
-@link_decoration: none;
-@link_active_decoration: @link_decoration;
-@link_active_color: @link_color;
-@link_visited_decoration: @link_decoration;
-@link_visited_color: @link_color;
-@link_hover_decoration: @link_decoration;
-@link_hover_color: lighten(@link_color, 20%);
 
 /* ======================================================
  * Base Styles
  * ====================================================== */
   
 body {
-  background-color: @body_background_color;
+  background-color: #121B31;
   background-image: @body_background_image;
   background-attachment: @body_background_attachment;
   background-repeat: @body_background_repeat;
@@ -55,7 +23,7 @@ body {
   line-height: @default_font_line_height;
   text-decoration: @default_font_decoration;
   text-transform: @default_font_case;
-  color: @default_font_color;
+  color: #FFFFFF;
 }
 
 /* ======================================================
