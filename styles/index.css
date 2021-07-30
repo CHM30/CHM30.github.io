@@ -32,7 +32,7 @@ p {
   
   /* Text */
   color: #05080F;
-  padding: 5px 10px;
+  padding: 5px 10px 5px 10px;
   
   /* Background */
   background-color: rgba(239, 243, 253, 0.5);
@@ -41,6 +41,7 @@ p {
   /* External */
   border-radius: 10px;
   width: 65%;
+  margin: auto;
   
 }
 
