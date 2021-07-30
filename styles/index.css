@@ -19,13 +19,13 @@ html, body {
 /* Typography
  * ====================================================== */
 
-h1 {
+h1, h2 {
   font-family: "Roboto Mono";
   font-size: 150%;
   color: #EFF3FD;
 }
 
-h2 {
+h3 {
   font-family: "Roboto Mono";
   font-size: 125%;
   color: #EFF3FD;
