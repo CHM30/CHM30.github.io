@@ -4,12 +4,13 @@
 
 html, body {
   font-family: "DM Sans", "PT Sans", sans-serif;
-  color: #EFF3FD;
-  background-color: #182441;
+  color: #05080F;
+  background-color: #EFF3FD;
 }
 
-.navigation {
+.banner {
   margin-bottom: 10px;
+  background-color: #5177D6;
 }
 
 .logo {
@@ -17,7 +18,6 @@ html, body {
 }
 
 .container {
-  color: #05080F;
   padding: 5px 10px 5px 10px;
   background-image: url(/images/gradient.jpg);
   border-radius: 10px;
