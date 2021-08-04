@@ -8,6 +8,10 @@ html, body {
   background-color: #EFF3FD;
 }
 
+div {
+  margin: 0;
+}
+
 #banner {
   margin-bottom: 10px;
   background-color: #182441;
