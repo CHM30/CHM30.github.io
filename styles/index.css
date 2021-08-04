@@ -1,27 +1,15 @@
-/* ======================================================
- * Fonts
- * ====================================================== */
-
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
-/* ======================================================
- * Styles
- * ====================================================== */
-  
 html, body {
   font-family: "DM Sans", "PT Sans", sans-serif;
   color: #EFF3FD;
   background-color: #182441;
 }
 
-/* Main
- * ====================================================== */
-
 .navigation {
   margin: 10px 10px 10px 0px;
-  
 }
 
 .container {
@@ -32,9 +20,6 @@ html, body {
   width: 65%;
   margin: 0 auto;
 }
-
-/* Typography
- * ====================================================== */
 
 h4 {
   font-family: "Roboto Mono";
