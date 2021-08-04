@@ -16,13 +16,16 @@ html, body {
   width: 100%;
 }
 
+#wrapper {
+  position: fixed;
+}
+
 .container {
   padding: 5px 10px 5px 10px;
   background-image: url(/images/gradient.jpg);
   border-radius: 10px;
   width: 65%;
   margin: 0 auto;
-  position: static;
 }
 
 .logo {
