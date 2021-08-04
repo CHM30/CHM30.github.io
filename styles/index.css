@@ -10,7 +10,8 @@ html, body {
 
 #banner {
   margin-bottom: 10px;
-  background-color: #05080F;
+  background-color: #182441;
+  display: block;
 }
 
 .container {
