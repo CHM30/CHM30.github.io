@@ -7,13 +7,12 @@ html, body {
   color: #05080F;
   background-color: #EFF3FD;
   margin: 0;
-  position: fixed;
 }
 
 #banner {
   margin-bottom: 10px;
   background-color: #182441;
-  display: block;
+  position: fixed;
 }
 
 .container {
