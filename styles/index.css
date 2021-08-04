@@ -41,14 +41,6 @@ html, body {
 /* Typography
  * ====================================================== */
 
-h1 {
-  
-  /* Text */
-  font-family: "Roboto Mono";
-  margin-left: 15px;
-  
-}
-
 h4 {
   
   /* Text */
@@ -58,15 +50,6 @@ h4 {
   text-underline-offset: 50%;
   margin-top: 10px;
   margin-left: 25px;
-  
-}
-
-
-h1.center {
-  
-  /* Text */
-  text-align: center;
-  margin: 0px 0px 0px 0px;
   
 }
 
