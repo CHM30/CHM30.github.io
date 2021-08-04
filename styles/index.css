@@ -11,70 +11,47 @@
  * ====================================================== */
   
 html, body {
-  
-  /* Text */
   font-family: "DM Sans", "PT Sans", sans-serif;
   color: #EFF3FD;
-  
-  /* Background */
   background-color: #182441;
-  
 }
 
 /* Main
  * ====================================================== */
 
 .navigation {
-  
-  /* Background */
   background-color: #182441;
   
 }
 
 .container {
-  
-  /* Text */
   color: #05080F;
   padding: 5px 10px 5px 10px;
-  
-  /* Background */
   background-image: url(/images/gradient.jpg);
-  
-  /* External */
   border-radius: 10px;
   width: 65%;
   margin: 0 auto;
-  
 }
 
 /* Typography
  * ====================================================== */
 
 h4 {
-  
-  /* Text */
   font-family: "Roboto Mono";
   text-decoration: underline;
   text-decoration-thickness: 10%;
   text-underline-offset: 50%;
   margin-top: 10px;
-  margin-left: 25px;
-  
+  margin-left: 25px;  
 }
 
 h4.center {
-  
-  /* Text */
   text-align: center;
-  margin: 10px 0px 0px 0px;
-  
+  margin: 10px 0px 0px 0px; 
 }
 
 p {
-  
-  /* Text */
   margin-left: 35px;
-  
 }
 
 p.center {
