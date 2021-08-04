@@ -22,7 +22,7 @@ html, body {
   border-radius: 10px;
   width: 65%;
   margin: 0 auto;
-  position: fixed;
+  position: static;
 }
 
 .logo {
