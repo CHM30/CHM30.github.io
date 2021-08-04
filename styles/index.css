@@ -27,7 +27,6 @@ html, body {
 .navigation {
   
   /* Background */
-  background-image: url(/images/gradient.jpg);
   background-color: rgba(239, 243, 253, 0.75);
   
 }
@@ -40,7 +39,6 @@ html, body {
   
   /* Background */
   background-image: url(/images/gradient.jpg);
-  background-color: rgba(239, 243, 253, 0.75);
   
   /* External */
   border-radius: 10px;
