@@ -8,21 +8,21 @@ html, body {
   background-color: #EFF3FD;
 }
 
-.banner {
+#banner {
   margin-bottom: 10px;
-  background-color: #5177D6;
+  background-color: #05080F;
 }
 
-.logo {
-  margin: 50px 0px 50px 50px;
-}
-
-.container {
+#container {
   padding: 5px 10px 5px 10px;
   background-image: url(/images/gradient.jpg);
   border-radius: 10px;
   width: 65%;
   margin: 0 auto;
+}
+
+.logo {
+  margin: 50px 0px 50px 50px;
 }
 
 h4 {
