@@ -6,6 +6,8 @@ html, body {
   font-family: "DM Sans", "PT Sans", sans-serif;
   color: #05080F;
   background-color: #EFF3FD;
+  margin: 0;
+  padding: 0;
 }
 
 #banner {
