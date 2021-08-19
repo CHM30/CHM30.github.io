@@ -14,6 +14,7 @@ html, body {
   background-color: #182441;
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 #wrapper {
