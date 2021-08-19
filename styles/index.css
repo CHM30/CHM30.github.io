@@ -1,13 +1,17 @@
-// FONTS
+/* ==================================================
+ * FONTS 
+ * ================================================== */
 
 @import url('https://fonts.googleapis.com/css?family=DM+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
-// BASE STYLES
+/* ==================================================
+ * BASE 
+ * ================================================== */
 
 html, body {
-  font-family: "DM Sans", "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   color: #05080F;
   background-color: #EFF3FD;
   margin: 0;
@@ -21,19 +25,41 @@ html, body {
   margin: 0 auto;
 }
 
-// HEADER
+h1, h2 {
+    font: 1.4rem "DM Sans", sans-serif;
+}
 
-#banner {
-  background-color: #182441;
+/* ==================================================
+ * HEADER 
+ * ================================================== */
+
+#banner-container {
   width: 100%;
+  display: table;
   top: 0;
 }
 
-.logo {
-  margin: 0 0 0 50px;
+#banner {
+  background-color: #182441;
+  height: 100px;
+  padding: 0 20px;
+  text-align: left;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
 }
 
-// BODY
+.logo {
+  font: bold 3rem "DM Sans", sans-serif;
+  color: #ffffff;
+  white-space: normal;
+  word-break: break-all;
+  vertical-align: middle;
+}
+
+/* ==================================================
+ * OTHER 
+ * ================================================== */
 
 #wrapper {
   margin-top: 100px;
