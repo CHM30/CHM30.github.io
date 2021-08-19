@@ -17,14 +17,6 @@ html, body {
   margin: 0;
 }
 
-.container {
-  padding: 5px 10px 5px 10px;
-  background-image: url(/images/gradient.jpg);
-  border-radius: 10px;
-  width: 65%;
-  margin: 0 auto;
-}
-
 h1, h2 {
     font: 1.4rem "DM Sans", sans-serif;
 }
@@ -63,27 +55,4 @@ h1, h2 {
 
 #wrapper {
   margin-top: 100px;
-}
-
-h4 {
-  font-family: "Roboto Mono";
-  text-decoration: underline;
-  text-decoration-thickness: 10%;
-  text-underline-offset: 50%;
-  margin-top: 10px;
-  margin-left: 25px;  
-}
-
-h4.center {
-  text-align: center;
-  margin: 10px 0 0 0; 
-}
-
-p {
-  margin-left: 35px;
-}
-
-p.center {
-  text-align: center;
-  margin: 20px 10px 10px 10px;
 }
