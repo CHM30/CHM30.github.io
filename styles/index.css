@@ -28,14 +28,13 @@ h1, h2 {
 #banner-container {
   width: 100%;
   display: table;
-  padding: 25px 0;
   top: 0;
 }
 
 #banner {
   background-color: #182441;
   height: 100px;
-  padding: 0 100px;
+  padding: 25px 100px;
   text-align: left;
   overflow: hidden;
   display: table-cell;
