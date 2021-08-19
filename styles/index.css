@@ -10,9 +10,7 @@ html, body {
 }
 
 #banner {
-  margin-bottom: 10px;
   background-color: #182441;
-  position: fixed;
   width: 100%;
   top: 0;
 }
