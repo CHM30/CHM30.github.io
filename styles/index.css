@@ -6,19 +6,12 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
-@genshin-font {
-    font-family: "Genshin";
-    src: url("../genshin.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
 /* ==================================================
  * BASE 
  * ================================================== */
 
 html, body {
-  font-family: @genshin-font;
+  font-family: "PT Sans", sans-serif;
   color: #05080F;
   background-color: #EFF3FD;
   margin: 0;
