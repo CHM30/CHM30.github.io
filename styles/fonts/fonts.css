@@ -1,11 +1,11 @@
-@genshin-font {
+@font-face {
     font-family: "Genshin";
     src: url("../genshin.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-@genshin-font {
+@font-face {
     font-family: "Genshin";
     src: url("../genshin.ttf") format('truetype');
     font-weight: bold;
