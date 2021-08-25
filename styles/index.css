@@ -8,14 +8,14 @@
 
 @font-face {
     font-family: "Genshin";
-    src: url("../genshin.ttf") format('truetype');
+    src: url("../fonts/genshin.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Genshin";
-    src: url("../genshin.ttf") format('truetype');
+    src: url("../fonts/genshin.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -25,14 +25,14 @@
  * ================================================== */
 
 html, body {
-  font-family: "PT Sans", sans-serif;
+  font-family: "Genshin", "PT Sans", sans-serif;
   color: #05080F;
   background-color: #EFF3FD;
   margin: 0;
 }
 
 h1, h2 {
-    font: 1.4rem "DM Sans", sans-serif;
+    font: 1.4rem "Genshin", "DM Sans", sans-serif;
 }
 
 /* ==================================================
@@ -55,7 +55,7 @@ h1, h2 {
 }
 
 .logo {
-  font: bold 3rem "DM Sans", sans-serif;
+  font: bold 3rem "Genshin", "DM Sans", sans-serif;
   color: #ffffff;
   white-space: normal;
   word-break: break-all;
