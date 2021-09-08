@@ -35,6 +35,10 @@ h1, h2 {
     font: 1.4rem "Genshin", "DM Sans", sans-serif;
 }
 
+* {
+    transition: 0.5s;
+}
+
 
 /* ==================================================
  * HEADER 
@@ -116,7 +120,6 @@ h1, h2 {
 }
 
 #main {
-  transition: margin-left .5s;
   padding: 16px;
 }
 
