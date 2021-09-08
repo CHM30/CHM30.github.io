@@ -25,10 +25,10 @@
  * ================================================== */
 
 html, body {
-  font-family: "Genshin", "PT Sans", sans-serif;
-  color: #05080F;
-  background-color: #EFF3FD;
-  margin: 0;
+    font-family: "Genshin", "PT Sans", sans-serif;
+    color: #05080F;
+    background-color: #EFF3FD;
+    margin: 0;
 }
 
 h1, h2 {
@@ -45,26 +45,26 @@ h1, h2 {
  * ================================================== */
 
 #banner-container {
-  width: 100%;
-  display: table;
-  top: 0;
+    width: 100%;
+    display: table;
+    top: 0;
 }
 
 #banner {
-  background-color: #182441;
-  height: 100px;
-  padding: 25px 100px;
-  text-align: left;
-  overflow: hidden;
-  display: table-cell;
+    background-color: #182441;
+    height: 100px;
+    padding: 25px 100px;
+    text-align: left;
+    overflow: hidden;
+    display: table-cell;
 }
 
 .logo {
-  font: bold 3rem "Genshin", "DM Sans", sans-serif;
-  color: #ffffff;
-  white-space: normal;
-  word-break: break-all;
-  vertical-align: middle;
+    font: bold 3rem "Genshin", "DM Sans", sans-serif;
+    color: #ffffff;
+    white-space: normal;
+    word-break: break-all;
+    vertical-align: middle;
 }
 
 
@@ -73,60 +73,59 @@ h1, h2 {
  * ================================================== */
 
 .sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 .sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: 1px;
+  
 }
 
 .openbtn:hover {
-  background-color: #444;
+    background-color: #444;
 }
 
 #main {
-  padding: 16px;
+    padding: 16px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
 }
 
 
@@ -135,5 +134,5 @@ h1, h2 {
  * ================================================== */
 
 #wrapper {
-  margin-top: 100px;
+    margin-top: 100px;
 }
