@@ -19,7 +19,7 @@
 @font-face {
     font-family: "Dosis";
     src: url("https://chm30.github.io/styles/fonts/Dosis-Light.ttf") format('truetype');
-    font-weight: 700;
+    font-weight: bold;
     font-style: normal;
 }
 
@@ -51,7 +51,7 @@
 #NavBar-title {
     text-align: center;
     padding: 20px 0 20px 0;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 /* ==================================================
