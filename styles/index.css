@@ -9,16 +9,28 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Dosis";
+    src: url("https://chm30.github.io/styles/fonts/Dosis-Light.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* ==================================================
  * BASE 
  * ================================================== */
 
 *, html, body {
-    font-family: "Genshin", sans-serif;
-    color: #05080F;
+    font-family: "Dosis", sans-serif;
+    color: #F8F8FC;
     background-color: #2B2D42;
     margin: 0;
+}
+
+h1, h2 {
+    font-family: "Genshin". sans-serif;
+    color: #F8F8FC;
 }
 
 
