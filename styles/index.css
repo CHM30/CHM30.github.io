@@ -6,17 +6,11 @@
 
 @font-face {
     font-family: "Genshin";
-    src: url("../fonts/genshin.ttf") format('truetype');
+    src: url("https://chm30.github.io/styles/fonts/genshin.ttf") format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: "Genshin";
-    src: url("../fonts/genshin.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
 
 /* ==================================================
  * BASE 
