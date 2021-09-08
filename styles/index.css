@@ -16,6 +16,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Dosis";
+    src: url("https://chm30.github.io/styles/fonts/Dosis-Light.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 
 /* ==================================================
  * BASE 
@@ -26,11 +33,6 @@
     color: #F8F8FC;
     background-color: #2B2D42;
     margin: 0;
-}
-
-h1, h2 {
-    font-family: "Genshin", sans-serif;
-    color: #F8F8FC;
 }
 
 /* ==================================================
@@ -47,10 +49,9 @@ h1, h2 {
 }
 
 #NavBar-title {
-    font-family: "Genshin", sans-serif;
-    color: #F8F8FC;
     text-align: center;
     padding: 20px 0 20px 0;
+    font-weight: 700;
 }
 
 /* ==================================================
