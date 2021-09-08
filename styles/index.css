@@ -2,8 +2,6 @@
  * FONTS 
  * ================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
-
 @font-face {
     font-family: "Genshin";
     src: url("https://chm30.github.io/styles/fonts/genshin.ttf") format('truetype');
@@ -16,19 +14,11 @@
  * BASE 
  * ================================================== */
 
-html, body {
-    font-family: "Genshin", "Titillium Web", sans-serif;
+*, html, body {
+    font-family: "Genshin", sans-serif;
     color: #05080F;
-    background-color: #EFF3FD;
+    background-color: #2B2D42;
     margin: 0;
-}
-
-h1, h2 {
-    font: 1.4rem "Genshin", "Titillium Web", sans-serif;
-}
-
-* {
-    transition: 0.5s;
 }
 
 
@@ -36,93 +26,6 @@ h1, h2 {
  * HEADER 
  * ================================================== */
 
-#banner-container {
-    width: 100%;
-    display: table;
-    top: 0;
-}
-
-#banner {
-    background-color: #182441;
-    height: 100px;
-    padding: 25px 100px;
-    text-align: left;
-    overflow: hidden;
-    display: table-cell;
-}
-
-.logo {
-    font: bold 3rem "Genshin", "Titillium Web", sans-serif;
-    color: #ffffff;
-    white-space: normal;
-    word-break: break-all;
-    vertical-align: middle;
-}
-
-
 /* ==================================================
  * OTHER 
  * ================================================== */
-
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    overflow-x: hidden;
-    padding-top: 60px;
-}
-
-.sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
-
-.sidebar a:hover {
-    color: #f1f1f1;
-}
-
-.sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-.openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-    padding: 10px 15px; 
-}
-
-.openbtn:hover {
-    border: 1px;
-    border-radius: 5px;
-}
-
-#main {
-    padding: 16px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-}
-
-
-/* ==================================================
- * OTHER 
- * ================================================== */
-
-#wrapper {
-    margin-top: 100px;
-}
